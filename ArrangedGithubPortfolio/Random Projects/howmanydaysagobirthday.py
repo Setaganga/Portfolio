@@ -7,7 +7,6 @@ def birthdaycalc(birthday,withTime = False):
         birthday = datetime.strptime(birthday, '%Y-%m-%d %H:%M')
         today = datetime.now().replace(second=0).replace(microsecond=0)
         result = today - birthday
-        print(today,birthday,result)
         hour = str(result)[11:13]
         minute = str(result)[14:16]
         result = f"Years:{result.days // 365} Days:{result.days % 365} Hours:{hour} Minutes:{minute}"

@@ -1,5 +1,6 @@
 #So I got this project idea from a book when I was reading about datetimes and stuff. And I just had a random thought. Boom. Project
 #Enter in Format: ARG1:yyyy-mm-dd or yyyy-mm-dd hh-mm ARG2: True if time included, otherwise False
+#Im also using my birthday, so wish me a happy birthday on April 7th okay?
 from datetime import datetime
 def birthdaycalc(birthday,withTime = False):
     if withTime:

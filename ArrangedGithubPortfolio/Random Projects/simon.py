@@ -18,7 +18,7 @@ while gameRun:
     elif num == 4:
         masterList.append(str(num))
     else:
-        print("Error 1: WTF Error. Randint failed to choose number")
+        print("Error 1: WTF Error. Randint failed to choose number.\nThis error isn't supposed to happen!\nIf you got this error then your computer must have severely goofed")
     for _ in masterList:
         print(_)
         sleep(SleepTimer)

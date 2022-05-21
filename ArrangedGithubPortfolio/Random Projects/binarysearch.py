@@ -7,7 +7,7 @@ target = numbers[Rtarget]
 def BinarySearch(targ,min,max,array):
     count = 0
     while True:
-        middle = min + (max - min)//2
+        middle = min + (max - min) // 2
         if array[middle] == targ:
             print(array[middle])
             return(count)
@@ -16,5 +16,5 @@ def BinarySearch(targ,min,max,array):
         elif array[middle] > targ:
             max = middle - 1
         count += 1
-c = BinarySearch(target,1,len(numbers)-1,numbers)
+c = BinarySearch(target,1,len(numbers) - 1,numbers)
 print("Count:{}".format(c))

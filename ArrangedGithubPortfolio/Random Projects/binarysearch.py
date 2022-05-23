@@ -1,8 +1,11 @@
 import random
 dataList = ["Alice","Jones","Billy Bob","Steve","david","Alex","foo","foobar","bar"] 
 #The initial list isn't sorted, so when we get our result, we may be confused as to why it's not in the correct index. 
-#Presumably you would have another list containing the sorted data list, and then you can get it at the correct index.
-#And remember, Binary Search Algorithms rely on SORTED lists. If it were unsorted, it would be quite confused.
+#Presumably you would have another list containing the sorted data, and then you can get it at the correct index.
+#And remember, Binary Search Algorithms rely on SORTED lists. If it were unsorted, it would be quite confused. 
+#For this program, it simply just cant find the data reliably. Since binary search algorithms rely on cutting away half the data,
+#it might accidentally cut away what you're trying to search for. It may at random get your answer, but it is sure a terrible terrible
+#way to do so. Sorted. Lists. Matter.
 Rtarget = random.randint(0,len(dataList) - 1)
 target = dataList[Rtarget]
 def BinarySearch(targ,min,max,array):

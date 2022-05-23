@@ -8,7 +8,11 @@ def birthdaycalc(birthday,withTime = False):
         today = datetime.now().replace(second=0).replace(microsecond=0)
         TD = today - birthday
         hour = str(TD)[11:13]
+        if hour[-1] == ":":
+            hour = hour[0]
         minute = str(TD)[14:16]
+        if minute[-1] == ":":
+            minute = hour[0]
         result = f"Years:{TD.days // 365} Days:{TD.days % 365} Hours:{hour} Minutes:{minute}"
         return result
     else:
@@ -18,5 +22,4 @@ def birthdaycalc(birthday,withTime = False):
         result = f"Years:{TD.days // 365} Days:{TD.days % 365}"
         return result
 
-print(birthdaycalc("2007-4-7 7:07",True))
-print(birthdaycalc("2007-4-7",False))
+print(birthdaycalc("1974-5-4",False))

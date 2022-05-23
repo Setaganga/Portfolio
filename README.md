@@ -43,7 +43,7 @@ What am I qualified in?
   
 What am I doing now?
 
-  ---I'm currently learning C, Django, and SQL. I'm taking the HarvardCS50x CS Course. I also occasionally do some challenges on Hackerrank.com, and am learning using freecodecamp, w3schools, and hackerrank.
+  ---I'm currently learning C and SQL. I'm taking the HarvardCS50x CS Course. I also occasionally do some challenges on Hackerrank.com, and am learning using freecodecamp, w3schools, and hackerrank.
   
 What do I plan to do later on?
 

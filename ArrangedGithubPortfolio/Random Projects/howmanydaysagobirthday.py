@@ -22,4 +22,7 @@ def birthdaycalc(birthday,withTime = False):
         result = f"Years:{TD.days // 365} Days:{TD.days % 365}"
         return result
 
+print(birthdaycalc("2007-4-7",False))
+print(birthdaycalc("1974-5-4 19:07",True))
 print(birthdaycalc("1974-5-4",False))
+print(birthdaycalc("1974-3-15",False))

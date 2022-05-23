@@ -1,8 +1,33 @@
 # Portfolio
-This is my code portfolio. I have challenges for hackerrank and freecodecamp, some math calculators, some cipher working, and just some random projects that I've made
+Hello all, this is my coding portfolio!
 
-I've done the w3schools courses for JS and Python, with uncompleted but still good levels of understanding with other languages such as the entire C family, Java, HTML and CSS, and PHP
-
-I'm currently taking the CS50X Harvard Course, doing some challenges on Hackerrank.com, and hoping to be certified in "Scientific Computing in Python" and "Back End Development" on freecodecamp.org
-
-Next year I will also be taking Computer Science and Intro to Programming, and later on I will take AP Computer Science
+Whats inside my portfolio?
+  -I have challenges for hackerrank and freecodecamp, some math calculators, some cipher working, and just some random projects that I've made.
+  -A lot of the programs I write are in Python, (because I use python as a primary language), but these can be reworked for other languages as well.
+  
+What am I qualified in?
+  -To explain what I intend here I have to explain my "ranking system".
+  -A: I have a proficient understanding of modules, libraries and more complex things to do with the language. It is a language which I use weekly/daily.
+  -B: I have a basic understanding of how to do variables, functions, operations, types, classes and objects, conditionals, and loops.
+  -C: Know some syntax and stuff, but not confident enough to say I know the language.
+  
+  -Python A
+  -JS A
+  
+  -Java B
+  -C++ B
+  -C# B
+  -HTML B
+  -CSS B
+  -PHP B
+  
+  -C C
+  -SQL C
+  
+What am I doing now?
+  -I'm currently learning C, Django, and SQL. I'm taking the CS50x Harvard CS Course. I also occasionally do some challenges on Hackerrank.com, and am learning using freecodecamp, w3schools, and hackerrank.
+  
+What do I plan to do later on?
+  -Next year I will be taking CS and Intro to Programming in school. 
+  -I hope to be certified in "Scientific Computing in Python" and "Back End Development" on freecodecamp. 
+  -I plan to go to the Colorado School of Mines majoring in Computer Science and minoring in Linguistics.

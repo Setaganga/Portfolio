@@ -31,12 +31,12 @@ What am I qualified in?
   
   ---HTML B
   
-  ---CSS B
-  
-  ---PHP B
+  ---C B
   
   
-  ---C C
+  ---CSS C
+  
+  ---PHP C
   
   ---SQL C
   

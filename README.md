@@ -42,6 +42,8 @@ What am I qualified in?
   
   ---SQL C
   
+  --Django C
+  
   
 What am I doing now?
 

@@ -13,9 +13,9 @@ What am I qualified in?
   
   ---A: I have a proficient understanding of modules, libraries and more complex things to do with the language. It is a language which I use weekly/daily.
   
-  ---B: I have a basic understanding of how to do variables, functions, operations, types, classes and objects, conditionals, and loops.
+  ---B: I have a good understanding of the language. I have played around with it and know generally how it works.
   
-  ---C: Know some syntax and stuff, but not confident enough to say I know the language.
+  ---C: Either beginning to learn the language or maybe I've forgotten some stuff and don't feel as confident to use it.
   
   
   ---Python A
@@ -31,10 +31,12 @@ What am I qualified in?
   
   ---HTML B
   
+  ---CSS B
+  
   ---C B
   
   
-  ---CSS C
+  -- Ruby C
   
   ---PHP C
   

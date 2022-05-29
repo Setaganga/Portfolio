@@ -9,7 +9,7 @@ for _ in range(int(input("Enter in number of quotes to make:"))):
     masterString += "\n"
 print("Heres to some words of wisdom:\n" + masterString)
 
-#Here is a brief explanation of each line:
+#Here is an explanation of each line:
 
 #1:Import randint
 #2:List of nouns

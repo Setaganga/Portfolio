@@ -6,8 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #Getting user input on how many clans and which data they want
-count = 0
-datatype = 0
+count, datatype = 0
 while count <= 0 or count >= 25:
     count = int(input("Enter amount of clans to scrape (1-25):"))
 while datatype <= 0 or datatype >= 6:

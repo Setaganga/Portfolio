@@ -24,7 +24,7 @@ def StrengthTest(PW):
     con2 = search(r"[a-z]",PW)
     con3 = search(r"[\d]",PW)
     con4 = search(r"[\~\`\!\ \@\#\$\%\^\&\*\(\)\_\-\+\=\{\[\}\]\|\\\:\;\'\<\,\>\.\?\/]",PW) #I sure do love escape characters
-    if con1 and con2 and con3 and con4:
+    if con1 and con2 and con3 and con4: #Check if it has an uppercase letter, a lowercase letter, a number, and a special symbol
         return True
     else:
         return False
@@ -34,6 +34,6 @@ def MakePassword():
 
 while strengthcheck != True:
     password = MakePassword() #Make password
-    strengthcheck = StrengthTest(password) #Test strenght, returns True or False
+    strengthcheck = StrengthTest(password) #Test strength, returns True or False
 
 print(f"Your generated password is: {password}")

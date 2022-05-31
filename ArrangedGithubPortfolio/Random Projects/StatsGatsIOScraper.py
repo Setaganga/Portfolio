@@ -1,5 +1,5 @@
 #Setagangas Data Scraper for https://stats.gats.io/clans/top
-#Credit to my buddy vedant for giving me this idea to make
+#Credit to my buddy vedant for giving me the idea
 
 #Import Modules
 import requests

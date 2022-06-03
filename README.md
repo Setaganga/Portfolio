@@ -3,13 +3,11 @@ Hello all, this is my coding portfolio!
 
 What's inside my portfolio?
 
-  ---I have challenges for hackerrank and freecodecamp, some math calculators, some cipher working, and just some random projects that I've made.
+  ---I have challenges for hackerrank and freecodecamp, some random cipher and math programs, some random projects, and some of the C work for CS50x
   
   ---A lot of the programs I write are in Python, (because I use python as a primary language)
   
 What am I qualified in?
-
-  ---To explain what I intend here I have to explain my "ranking system".
   
   ---A: I have a proficient understanding of modules, libraries and more complex things to do with the language. It is a language which I use weekly/daily and that I feel confident with.
   

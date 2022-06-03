@@ -22,11 +22,11 @@ What am I qualified in?
   
   
   B CATEGORY:
-  Java, C family (C,C++,C#), HTML, and Django
+  C family (C,C++,C#), HTML, CSS, and Django
 
 
   C CATEGORY:
-  PHP and CSS
+  PHP and Java
 
 
   D CATEGORY:

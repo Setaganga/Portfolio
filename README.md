@@ -1,11 +1,15 @@
 # Portfolio
 Hello all, this is my coding portfolio!
 
+
+
 What's inside my portfolio?
 
   ---I have challenges for hackerrank and freecodecamp, some random cipher and math programs, some random projects, and some of the C work for CS50x
   
   ---A lot of the programs I write are in Python, (because I use python as a primary language)
+  
+  
   
 What am I qualified in?
   
@@ -22,20 +26,24 @@ What am I qualified in?
   
   
   B CATEGORY:
-  C family (C,C++,C#), HTML, CSS, and Django
+  HTML, Django, CSS, C family (C,C++,C#), Java
 
 
   C CATEGORY:
-  PHP and Java
+  PHP
 
 
   D CATEGORY:
-  Ruby and SQL
+  SQL
+  
+  
   
   
 What am I doing now?
 
   ---I'm taking the HarvardCS50x CS Course. I also occasionally do some challenges on Hackerrank.com, and am learning using freecodecamp, w3schools, and codecademy.
+  
+  
   
 What do I plan to do later on?
 

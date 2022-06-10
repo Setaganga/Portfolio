@@ -13,30 +13,16 @@ What's inside my portfolio?
   
 What am I qualified in?
   
-  ---A: I have a proficient understanding of modules, libraries and more complex things to do with the language. It is a language which I use weekly/daily and that I feel confident with.
-  
-  ---B: I have a good understanding of the language. I have played around with it and know how it works.
-  
-  ---C: I've played with this language before, but I've forgotten some stuff and don't feel as confident to use it.
- 
-  ---D: This is a language I am currently learning
-  
   A CATEGORY:
   Python and JavaScript 
   
   
   B CATEGORY:
-  HTML, Django, CSS, C family (C,C++,C#), Java
+  HTML, Django, CSS, C family (C,C++,C#), SQL, Java
 
 
   C CATEGORY:
   PHP
-
-
-  D CATEGORY:
-  SQL
-  
-  
   
   
 What am I doing now?

@@ -38,5 +38,7 @@ What do I plan to do later on?
   ---I plan to go to the Colorado School of Mines majoring in Computer Science and minoring in Linguistics.
   
 What awards have I won?
+
   ---I have earned 3rd place in Video Game Design for TSA Districts
+  
   ---I have gotten a certificate from SoloLearn on SQL

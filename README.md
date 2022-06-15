@@ -36,7 +36,7 @@ What have I used in the past?
   
 What am I doing now?
 
-  ---Trying to learn more CSs and Golang, Hackerrank.com challenges, and the Harvard CS50x course
+  ---Trying to learn more CSS and Golang, Hackerrank.com challenges, and the Harvard CS50x course
   
 What do I plan to do later on?
 

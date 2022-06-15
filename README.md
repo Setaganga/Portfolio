@@ -3,37 +3,46 @@ Hello all, this is my coding portfolio!
 
 
 
-What's inside my portfolio?
+What's inside?
 
-  ---I have challenges for hackerrank and freecodecamp, some random cipher and math programs, some random projects, and some of the C work for CS50x
-  
-  ---A lot of the programs I write are in Python, (because I use python as a primary language)
+  ---Challenges, Misc Projects, Math Calculators, Ciphers, and more!
   
   
   
-What am I qualified in?
+What have I used in the past?
   
-  A CATEGORY:
-  Python and JavaScript 
+  Python
   
+  Javascript
   
-  B CATEGORY:
-  HTML, Django, CSS, C family (C,C++,C#), SQL, Java
-
-
-  C CATEGORY:
+  HTML
+  
+  CSS
+  
+  Django
+  
+  C
+  
+  C++
+  
+  C#
+  
+  SQL
+  
+  Java
+  
   PHP
   
   
 What am I doing now?
 
-  ---I'm taking the HarvardCS50x CS Course. I also occasionally do some challenges on Hackerrank.com, and am learning using freecodecamp, w3schools, and SoloLearn.
+  ---Trying to learn more CSs and Golang, Hackerrank.com challenges, and the Harvard CS50x course
   
 What do I plan to do later on?
 
-  ---Next year I will be taking CS and Intro to Programming in school. In junior and senior years I will take AP Computer Science and Information Literacy 1 (Information Technology Capstone)
+  ---I will be taking as many computer science and programming classes in High School
   
-  ---I hope to be certified in "Scientific Computing in Python" and "Back End Development" on freecodecamp. 
+  ---I hope to get a few more certificates to display my knowledge and skills
   
   ---I plan to go to the Colorado School of Mines majoring in Computer Science and minoring in Linguistics.
   
@@ -42,3 +51,5 @@ What awards have I won?
   ---I have earned 3rd place in Video Game Design for TSA Districts
   
   ---I have gotten a certificate from SoloLearn on SQL
+
+  ---I have completed 5 courses on w3schools.com

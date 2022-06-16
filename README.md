@@ -13,11 +13,11 @@ What have I used in the past?
   
   Python
   
-  Javascript
-  
   HTML
   
   CSS
+  
+  Javascript
   
   Django
   
@@ -32,6 +32,10 @@ What have I used in the past?
   Java
   
   PHP
+  
+  Git
+  
+  Ruby
   
   
 What am I doing now?

@@ -5,7 +5,7 @@ Hello all, this is my coding portfolio!
 
 What's inside?
 
-  ---Challenges, Misc Projects, Math Calculators, Ciphers, and more!
+  ---11 examples of my best code!
   
   
   

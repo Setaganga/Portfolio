@@ -1,0 +1,34 @@
+body {
+    background-color: burlywood;
+}
+table, td {
+    border:1px solid black;
+}
+a {
+    font-size: 30px;
+}
+input {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}
+button {
+    width: 75px;
+    height: 75px;
+}
+h1 {
+    font-family: 'Verdana';
+    font-size: 40px;
+}
+#green {
+    background-color: greenyellow;
+}
+#blue {
+    background-color: aqua;
+}
+#red {
+    background-color: #ff6464;
+}
+a:hover {
+    background-color: rgb(251, 255, 0) !important;
+}

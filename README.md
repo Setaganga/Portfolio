@@ -10,37 +10,27 @@ What's inside?
   
   
 What have I used in the past?
+    
+  ---I've used a lot of software in the past, but these are the few that I work with a lot
   
   Python
   
-  HTML
-  
-  CSS
-  
-  Javascript
+  3 Core Web Design (HTML, CSS, JS)
   
   Django
   
   C
   
-  C++
-  
-  C#
-  
-  SQL
+  SQL and PostgreSQL
   
   Java
   
   PHP
   
-  Git
-  
-  Ruby
-  
   
 What am I doing now?
 
-  ---Harvard CS50x Course, Back End Development and API's on FreeCodeCamp, and PHP
+  ---Harvard CS50x Course, Back End Development and API's on FreeCodeCamp, and Java
   
 What do I plan to do later on?
 
@@ -48,4 +38,4 @@ What do I plan to do later on?
   
   ---I plan to go to the Colorado School of Mines majoring in Computer Science and minoring in Linguistics.
   
-  ---I plan to make bigger and better projects to put on my portfolio
+  ---I plan to make bigger and better projects to put on my portfolio to show off what I can do in Backend

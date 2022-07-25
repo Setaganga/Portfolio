@@ -34,6 +34,6 @@ def MakePassword():
 
 while strengthcheck != True:
     password = MakePassword() #Make password
-    strengthcheck = StrengthTest(password) #Test strenght, returns True or False
+    strengthcheck = StrengthTest(password) #Test strength, returns True or False
 
 print(f"Your generated password is: {password}")

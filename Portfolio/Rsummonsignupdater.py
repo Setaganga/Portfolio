@@ -5,7 +5,7 @@
 #However, I'm not always online on the reddit, and usually someone beats me to it!
 #So I made a scraper to do this and show me the first 5 posts on the new category.
 #I will add onto this and have it filter out for the PS4/5 and DS3
-#Reddit doesn't allow more than 30 requests per hour, so I have it set as 5 minute intervals just to be safe.
+#Reddit doesn't allow more than 30 requests per hour, so I have to not be spamming this
 
 #importing modules and link
 import requests
@@ -20,7 +20,7 @@ passablePlatforms = ["PS4", "PS5", "PS4/5"]
 passableterms = [
     "DS3", 
     "Darksouls3", 
-    "DKS3"
+    "DKS3",
     "Vordt",
     "Greatwood",
     "Sage",
@@ -40,7 +40,6 @@ passableterms = [
     "Oceiros",
     "Gundyr",
     "Wyvern",
-    "King",
     "Nameless",
     "Gravetender",
     "Friede",
@@ -65,55 +64,53 @@ def PS_DS3_Validate(text):
     for j in passableterms:
         if re.search(j.lower(),text.lower()):
             gCheck = True
-    return (pCheck and gCheck)
-#Loop
-while True:
-    #request website and make sure we fetch it correctly
-    print("\n")
-    req = requests.get(websiteLink)
-    sc = req.status_code
-    if sc != 200:
-        print(colored("Could not fetch website","red"))
-    else:
-        #Use html parser
-        bs = BeautifulSoup(req.content,'html.parser')
-        #Find the div with the posts
-        helpmesections = bs.find(class_="rpBJOHq2PR60pnwJlUyP0")
-        #Get timestamps
-        timestamp = helpmesections.findAll("span")
-        #Get post title
-        title = helpmesections.findAll(class_="_eYtD2XCVieq6emjKBH3m")
-        #Get comment count
-        comments = helpmesections.findAll(class_="FHCV02u6Cp2zYL0fhQPsO")
-        #Make sure timestamp has "ago" inside of it
-        refinedtimestamp = [x.get_text() for x in timestamp if "ago" in x.get_text()]
-        #Get text of title
-        refinedtitle = [x.get_text() for x in title]
-        #Get text from comments
-        refinedcomments = [x.get_text() for x in comments]
+    if pCheck == True and gCheck == True:
+        return True
+    return False
 
-        #Check if lists arent empty
-        if len(refinedtitle) > 0:
-            #If it has 5 or more, print out the first 5
-            if len(refinedtitle) > 4:
-                for i in range(5):
-                    if PS_DS3_Validate(refinedtitle[i]):
-                        if refinedcomments[i] == "0 comments":
-                            print(colored("*CRITERIA* ","green"),colored("*NOT TAKEN*","blue"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
-                        else:
-                            print(colored("*CRITERIA*","green"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
-                    else:
-                        print(f"{refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
-            #otherwise, print out available posts.
-            else:
-                for i in range(len(refinedtitle)):
-                    if PS_DS3_Validate(refinedtitle[i]):
-                        if refinedcomments[i] == "0 comments":
-                            print(colored("*CRITERIA* ","green"),colored("*NOT TAKEN*","blue"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
-                        else:
-                            print(colored("*CRITERIA*","green"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
-                    else:
-                        print(f"{refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+#request website and make sure we fetch it correctly
+print("\n")
+req = requests.get(websiteLink)
+sc = req.status_code
+if sc != 200:
+    print(colored("Could not fetch website","red"))
+else:
+    #Use html parser
+    bs = BeautifulSoup(req.content,'html.parser')
+    #Find the div with the posts
+    helpmesections = bs.find(class_="rpBJOHq2PR60pnwJlUyP0")
+    #Get timestamps
+    timestamp = helpmesections.findAll("span")
+    #Get post title
+    title = helpmesections.findAll(class_="_eYtD2XCVieq6emjKBH3m")
+    #Get comment count
+    comments = helpmesections.findAll(class_="FHCV02u6Cp2zYL0fhQPsO")
+    #Make sure timestamp has "ago" inside of it
+    refinedtimestamp = [x.get_text() for x in timestamp if "ago" in x.get_text()]
+    #Get text of title
+    refinedtitle = [x.get_text() for x in title]
+    #Get text from comments
+    refinedcomments = [x.get_text() for x in comments]
 
-    #wait 3 minutes
-    sleep(180)
+    #Check if lists arent empty
+    if len(refinedtitle) > 0:
+        #If it has 5 or more, print out the first 5
+        if len(refinedtitle) > 4:
+            for i in range(5):
+                if PS_DS3_Validate(refinedtitle[i]):
+                    if refinedcomments[i] == "0 comments":
+                        print(colored("*CRITERIA* ","green"),colored("*NOT TAKEN*","blue"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+                    else:
+                        print(colored("*CRITERIA*","green"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+                else:
+                    print(f"{refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+        #otherwise, print out available posts.
+        else:
+            for i in range(len(refinedtitle)):
+                if PS_DS3_Validate(refinedtitle[i]):
+                    if refinedcomments[i] == "0 comments":
+                        print(colored("*CRITERIA* ","green"),colored("*NOT TAKEN*","blue"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+                    else:
+                        print(colored("*CRITERIA*","green"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+                else:
+                    print(f"{refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")

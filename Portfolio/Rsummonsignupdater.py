@@ -16,6 +16,7 @@ from termcolor import colored
 
 websiteLink = "https://new.reddit.com/r/SummonSign/?f=flair_name%3A%22%3Apsx%3A%20Help%20Me!%22"
 
+#Platforms and keywords
 passablePlatforms = ["PS4", "PS5", "PS4/5"]
 passableterms = [
     "DS3", 
@@ -55,15 +56,20 @@ passableterms = [
     "dreg",
 ]
 
+#Validate if the title is suitable
 def PS_DS3_Validate(text):
+    #Platform Check and Game Check
     pCheck = False
     gCheck = False
+    #Search if ps4/5 in title
     for i in passablePlatforms:
         if re.search(i.lower(),text.lower()):
             pCheck = True
+    #Check for keywords
     for j in passableterms:
         if re.search(j.lower(),text.lower()):
             gCheck = True
+    #If both pass, it flags criteria
     if pCheck == True and gCheck == True:
         return True
     return False
@@ -97,20 +103,28 @@ else:
         #If it has 5 or more, print out the first 5
         if len(refinedtitle) > 4:
             for i in range(5):
+                #Checking for ps ds3 validation
                 if PS_DS3_Validate(refinedtitle[i]):
+                    #If no comments, its free to take
                     if refinedcomments[i] == "0 comments":
                         print(colored("*CRITERIA* ","green"),colored("*NOT TAKEN*","blue"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+                    #If there IS comments, well, sad.
                     else:
                         print(colored("*CRITERIA*","green"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
                 else:
+                    #Print out regular title with no flags
                     print(f"{refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
         #otherwise, print out available posts.
         else:
             for i in range(len(refinedtitle)):
+                #Checking for ps ds3 validation
                 if PS_DS3_Validate(refinedtitle[i]):
+                    #If no comments, its free to take
                     if refinedcomments[i] == "0 comments":
                         print(colored("*CRITERIA* ","green"),colored("*NOT TAKEN*","blue"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
+                    #If there IS comments, well, sad.
                     else:
                         print(colored("*CRITERIA*","green"),f" {refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")
                 else:
+                    #Print out regular title with no flags
                     print(f"{refinedtitle[i]}, {refinedtimestamp[i]}, {refinedcomments[i]}\n")

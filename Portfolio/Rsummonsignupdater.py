@@ -8,7 +8,6 @@
 #Reddit doesn't allow more than 30 requests per hour, so I have it set as 5 minute intervals just to be safe.
 
 #importing modules and link
-from numpy import true_divide
 import requests
 from bs4 import BeautifulSoup
 from time import sleep
